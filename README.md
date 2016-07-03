@@ -46,6 +46,13 @@ Bridging Header:
   * We like the file name `Bridge.h`
   * Add this text: `#import "XlsxReaderWriter-swift-bridge.h"`
 
+Bridging Header complete file:
+
+    #ifndef Demo_Swift_Xlsx_Reader_Writer_Bridging_Header_h
+    #define Demo_Swift_Xlsx_Reader_Writer_Bridging_Header_h
+    #import "XlsxReaderWriter-swift-bridge.h"
+    #endif /* Demo_Swift_Xlsx_Reader_Writer_Bridging_Header_h */
+
 Add the bridge:
 
   * Project -> Demo -> Build Settings -> Swift Compiler - Code Generation -> Objective-C Bridging Header 
