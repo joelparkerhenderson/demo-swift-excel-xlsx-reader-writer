@@ -1,6 +1,6 @@
-# Demo Swift Xslx Reader Writer
+# Demo Swift Excel Xlsx Reader Writer
 
-[XslxReaderWriter](https://github.com/renebigot/XlsxReaderWriter) is an Objective-C library that works with Excel OpenXml files (XLSX).
+[XlsxReaderWriter](https://github.com/renebigot/XlsxReaderWriter) is an Objective-C library that works with Excel OpenXml files (XLSX).
 
 ## To create this demo
 
