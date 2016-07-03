@@ -29,13 +29,13 @@ Link binaries:
 
 Linking:
 
-  * Project -> Demo -> Build Settings -> Linking -> Other Linker Flags 
+  * Project -> Demo -> Build Settings -> Linking -> Other Linker Flags
   * -> (Debug & Release) -> (+) -> Any Architeture | Any SDK
   * Add: `-all_load`
 
 Search Paths:
 
-  * Project -> Demo -> Build Settings -> Search Paths -> User Header Search Paths 
+  * Project -> Demo -> Build Settings -> Search Paths -> User Header Search Paths
   * -> (Debug & Release) -> (+) -> Any Architecture
   * Set it to: `$(SRCROOT)/XlsxReaderWriter/` not `$(SRCROOT)/XlsxReaderWriter/XlsxReaderWriter/`.
   * Select "recursive".
@@ -55,12 +55,12 @@ Bridging Header complete file:
 
 Add the bridge:
 
-  * Project -> Demo -> Build Settings -> Swift Compiler - Code Generation -> Objective-C Bridging Header 
+  * Project -> Demo -> Build Settings -> Swift Compiler - Code Generation -> Objective-C Bridging Header
   * -> (Debug & Release) -> (+) -> Any Architecture | Any SDK -> Add: `Bridge.h`
 
 Verify:
 
-  * Run the project. 
+  * Run the project.
   * It should compile and launch a blank simulator.
 
 ## To load an Excel file
@@ -68,7 +68,7 @@ Verify:
 Create an Excel file by using your own Excel software, or any Excel-compatible software.
 
   * For example, create `DemoWorkbook.xlsx` and save it in the repository.
-  * For example, in the cell A1, type the word "Alpha". 
+  * For example, in the cell A1, type the word "Alpha".
 
 Edit `ViewController.swift`:
 
@@ -93,6 +93,15 @@ Edit `ViewController.swift`:
 
 Verify:
 
-  * Run the project. 
+  * Run the project.
   * It should compile and launch a blank simulator.
   * The Xcode console should now show the word "Alpha".
+
+## Tracking
+
+* Package: demo_swift_excel_xlsx_reader_writer
+* Version: 2.0.5
+* Created: 2016-07-02
+* Updated: 2016-07-03
+* License: Any of BSD, GPL, MIT
+* Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
