@@ -78,8 +78,8 @@ Edit `ViewController.swift`:
 
       override func viewDidLoad() {
         super.viewDidLoad()
-        let documentPath: String = NSBundle.mainBundle().pathForResource("DemoWorkbook", ofType: "xlsx")!
-        let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(documentPath)
+        let path: String = NSBundle.mainBundle().pathForResource("DemoWorkbook", ofType: "xlsx")!
+        let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(path)
         let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
         let string: String = worksheet.cellForCellReference("A1").stringValue()
         print(string) // The Xcode console should now show the word "Alpha"
@@ -100,7 +100,7 @@ Verify:
 ## Tracking
 
 * Package: demo_swift_excel_xlsx_reader_writer
-* Version: 2.0.5
+* Version: 2.0.6
 * Created: 2016-07-02
 * Updated: 2016-07-03
 * License: Any of BSD, GPL, MIT
