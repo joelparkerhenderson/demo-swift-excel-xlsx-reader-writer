@@ -53,13 +53,39 @@ Add the bridge:
 
 Verify:
 
-  * Run the demo project. It should compile and launch a blank simulator.
+  * Run the project. 
+  * It should compile and launch a blank simulator.
 
-## To add an Excel file
+## To load an Excel file
 
 Create an Excel file by using your own Excel software, or any Excel-compatible software.
 
   * For example, create `DemoWorkbook.xlsx` and save it in the repository.
+  * For example, in the cell A1, type the word "Alpha". 
 
+Edit `ViewController.swift`:
 
+    import UIKit
 
+    class ViewController: UIViewController {
+
+      override func viewDidLoad() {
+        super.viewDidLoad()
+        let documentPath: String = NSBundle.mainBundle().pathForResource("DemoWorkbook", ofType: "xlsx")!
+        let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(documentPath)
+        let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
+        let string: String = worksheet.cellForCellReference("A1").stringValue()
+        print(string) // The Xcode console should now show the word "Alpha"
+      }
+
+      override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+      }
+
+    }
+
+Verify:
+
+  * Run the project. 
+  * It should compile and launch a blank simulator.
+  * The Xcode console should now show the word "Alpha".

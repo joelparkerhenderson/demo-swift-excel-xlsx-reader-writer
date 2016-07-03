@@ -1,26 +1,19 @@
-//
-//  ViewController.swift
-//  Demo Swift Xlsx Reader Writer
-//
-//  Created by Joel Parker Henderson on 2016-07-03.
-//  Copyright © 2016 Joel Parker Henderson. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    var documentPath: String = NSBundle.mainBundle().pathForResource("DemoWorkbook", ofType: "xlsx")!
-    var spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(documentPath)
+    let documentPath: String = NSBundle.mainBundle().pathForResource("DemoWorkbook", ofType: "xlsx")!
+    let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(documentPath)
+    let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
+    let string: String = worksheet.cellForCellReference("A1").stringValue()
+    print(string) // The Xcode console should now show the word "Alpha"
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
-
 
 }
 
