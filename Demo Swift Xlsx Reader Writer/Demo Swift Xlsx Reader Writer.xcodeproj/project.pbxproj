@@ -17,6 +17,7 @@
 		5DE15F121D29B4510026DF21 /* Demo_Swift_Xlsx_Reader_WriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE15F111D29B4510026DF21 /* Demo_Swift_Xlsx_Reader_WriterUITests.swift */; };
 		5DE15F341D29B7A90026DF21 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE15F331D29B7A90026DF21 /* libz.tbd */; };
 		5DE160551D29BCD70026DF21 /* libXlsxReaderWriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE1604E1D29BCC20026DF21 /* libXlsxReaderWriter.a */; };
+		5DE160581D29C2850026DF21 /* DemoWorkbook.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 5DE160571D29C2850026DF21 /* DemoWorkbook.xlsx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,10 +81,9 @@
 		5DE15F111D29B4510026DF21 /* Demo_Swift_Xlsx_Reader_WriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_Xlsx_Reader_WriterUITests.swift; sourceTree = "<group>"; };
 		5DE15F131D29B4510026DF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE15F2F1D29B6DB0026DF21 /* libSSZipArchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSSZipArchive.a; path = "../../../../Library/Developer/Xcode/DerivedData/Demo_Swift_Xlsx_Reader_Writer-gvoufiqeffmficfmtqlfvvdnfwcq/Build/Products/Debug-iphonesimulator/libSSZipArchive.a"; sourceTree = "<group>"; };
-		5DE15F311D29B73C0026DF21 /* lazydylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = lazydylib1.o; path = usr/lib/lazydylib1.o; sourceTree = SDKROOT; };
 		5DE15F331D29B7A90026DF21 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5DE160461D29BCC20026DF21 /* XlsxReaderWriter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XlsxReaderWriter.xcodeproj; path = XlsxReaderWriter/XlsxReaderWriter.xcodeproj; sourceTree = "<group>"; };
-		5DE160561D29BE0B0026DF21 /* Demo-Swift-Xlsx-Reader-Writer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Swift-Xlsx-Reader-Writer-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DE160571D29C2850026DF21 /* DemoWorkbook.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = DemoWorkbook.xlsx; path = ../DemoWorkbook.xlsx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,9 @@
 		5DE15EE21D29B4510026DF21 = {
 			isa = PBXGroup;
 			children = (
-				5DE160561D29BE0B0026DF21 /* Demo-Swift-Xlsx-Reader-Writer-Bridging-Header.h */,
+				5DE160571D29C2850026DF21 /* DemoWorkbook.xlsx */,
 				5DE160461D29BCC20026DF21 /* XlsxReaderWriter.xcodeproj */,
 				5DE15F331D29B7A90026DF21 /* libz.tbd */,
-				5DE15F311D29B73C0026DF21 /* lazydylib1.o */,
 				5DE15F2F1D29B6DB0026DF21 /* libSSZipArchive.a */,
 				5DE15EED1D29B4510026DF21 /* Demo Swift Xlsx Reader Writer */,
 				5DE15F051D29B4510026DF21 /* Demo Swift Xlsx Reader WriterTests */,
@@ -316,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE15EFC1D29B4510026DF21 /* LaunchScreen.storyboard in Resources */,
+				5DE160581D29C2850026DF21 /* DemoWorkbook.xlsx in Resources */,
 				5DE15EF91D29B4510026DF21 /* Assets.xcassets in Resources */,
 				5DE15EF41D29B4510026DF21 /* Main.storyboard in Resources */,
 			);
@@ -444,9 +444,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Bridge.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/XlsxReaderWriter/**";
 			};
 			name = Debug;
 		};
@@ -485,9 +488,9 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				SDKROOT = iphoneos;
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Demo-Swift-Xlsx-Reader-Writer-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Bridge.h;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/XlsxReaderWriter/**";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/XlsxReaderWriter/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

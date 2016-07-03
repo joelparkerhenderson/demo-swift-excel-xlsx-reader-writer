@@ -29,27 +29,35 @@ Link binaries:
 
 Linking:
 
-  * Project -> Demo -> Build Settings -> Linking -> Other Linker Flags -> Release -> (+) -> Any Architeture | Any SDK
+  * Project -> Demo -> Build Settings -> Linking -> Other Linker Flags -> (Debug & Release) -> (+) -> Any Architeture | Any SDK
   * Add: `-all_load`
 
 Search Paths:
 
-  * Project -> Demo -> Build Settings -> Search Paths -> User Header Search Paths -> Release -> (+) -> Any Architecture
+  * Project -> Demo -> Build Settings -> Search Paths -> User Header Search Paths -> (Debug & Release) -> (+) -> Any Architecture
   * Set it to: `$(SRCROOT)/XlsxReaderWriter/` not `$(SRCROOT)/XlsxReaderWriter/XlsxReaderWriter/`.
   * Select "recursive".
 
 Bridging Header:
 
   * Add a new file to Xcode (File > New > File), then select “Source” and click “Header File“.
-  * Name the file by convention: `Demo-Swift-Xlsx-Reader-Writer-Bridging-Header.h`
+  * We like the file name `Bridge.h`
   * Add this text: `#import "XlsxReaderWriter-swift-bridge.h"`
 
 Add the bridge:
 
-  * Project -> Demo -> Build Settings -> Swift Compiler - Code Generation -> Objective-C Bridging Header -> Release -> (+) -> Any Architecture | Any SDK
-  * Add: `Demo-Swift-Xlsx-Reader-Writer-Bridging-Header.h`
+  * Project -> Demo -> Build Settings -> Swift Compiler - Code Generation -> Objective-C Bridging Header 
+  * -> (Debug & Release) -> (+) -> Any Architecture | Any SDK -> Add: `Bridge.h`
 
 Verify:
 
   * Run the demo project. It should compile and launch a blank simulator.
+
+## To add an Excel file
+
+Create an Excel file by using your own Excel software, or any Excel-compatible software.
+
+  * For example, create `DemoWorkbook.xlsx` and save it in the repository.
+
+
 
