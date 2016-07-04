@@ -80,9 +80,11 @@ Edit `ViewController.swift`:
         super.viewDidLoad()
         let path: String = NSBundle.mainBundle().pathForResource("DemoWorkbook", ofType: "xlsx")!
         let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(path)
+        let sheet: BRASheet = spreadsheet.workbook.sheets[0] as! BRASheet
         let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
         let string: String = worksheet.cellForCellReference("A1").stringValue()
-        print(string) // The Xcode console should now show the word "Alpha"
+        print(sheet.name) // print "Sheet1"
+        print(string) // print "Alpha"
       }
 
       override func didReceiveMemoryWarning() {
@@ -95,7 +97,7 @@ Verify:
 
   * Run the project.
   * It should compile and launch a blank simulator.
-  * The Xcode console should now show the word "Alpha".
+  * The Xcode console should now show the text "Sheet1" and "Alpha".
 
 ## Tracking
 
