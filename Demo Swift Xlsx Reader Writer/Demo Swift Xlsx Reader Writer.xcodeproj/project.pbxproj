@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D19CDBB1D2AC88200D1C11D /* demo.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CDBA1D2AC88200D1C11D /* demo.xlsx */; };
 		5DE15EEF1D29B4510026DF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE15EEE1D29B4510026DF21 /* AppDelegate.swift */; };
 		5DE15EF11D29B4510026DF21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE15EF01D29B4510026DF21 /* ViewController.swift */; };
 		5DE15EF41D29B4510026DF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE15EF21D29B4510026DF21 /* Main.storyboard */; };
@@ -17,7 +18,6 @@
 		5DE15F121D29B4510026DF21 /* Demo_Swift_Xlsx_Reader_WriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE15F111D29B4510026DF21 /* Demo_Swift_Xlsx_Reader_WriterUITests.swift */; };
 		5DE15F341D29B7A90026DF21 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE15F331D29B7A90026DF21 /* libz.tbd */; };
 		5DE160551D29BCD70026DF21 /* libXlsxReaderWriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE1604E1D29BCC20026DF21 /* libXlsxReaderWriter.a */; };
-		5DE160581D29C2850026DF21 /* DemoWorkbook.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 5DE160571D29C2850026DF21 /* DemoWorkbook.xlsx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D19CDBA1D2AC88200D1C11D /* demo.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.xlsx; path = ../demo.xlsx; sourceTree = "<group>"; };
 		5DE15EEB1D29B4510026DF21 /* Demo Swift Xlsx Reader Writer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Swift Xlsx Reader Writer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE15EEE1D29B4510026DF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DE15EF01D29B4510026DF21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +84,6 @@
 		5DE15F2F1D29B6DB0026DF21 /* libSSZipArchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSSZipArchive.a; path = "../../../../Library/Developer/Xcode/DerivedData/Demo_Swift_Xlsx_Reader_Writer-gvoufiqeffmficfmtqlfvvdnfwcq/Build/Products/Debug-iphonesimulator/libSSZipArchive.a"; sourceTree = "<group>"; };
 		5DE15F331D29B7A90026DF21 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5DE160461D29BCC20026DF21 /* XlsxReaderWriter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XlsxReaderWriter.xcodeproj; path = XlsxReaderWriter/XlsxReaderWriter.xcodeproj; sourceTree = "<group>"; };
-		5DE160571D29C2850026DF21 /* DemoWorkbook.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = DemoWorkbook.xlsx; path = ../DemoWorkbook.xlsx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 		5DE15EE21D29B4510026DF21 = {
 			isa = PBXGroup;
 			children = (
-				5DE160571D29C2850026DF21 /* DemoWorkbook.xlsx */,
 				5DE160461D29BCC20026DF21 /* XlsxReaderWriter.xcodeproj */,
 				5DE15F331D29B7A90026DF21 /* libz.tbd */,
 				5DE15F2F1D29B6DB0026DF21 /* libSSZipArchive.a */,
+				5D19CDBA1D2AC88200D1C11D /* demo.xlsx */,
 				5DE15EED1D29B4510026DF21 /* Demo Swift Xlsx Reader Writer */,
 				5DE15F051D29B4510026DF21 /* Demo Swift Xlsx Reader WriterTests */,
 				5DE15F101D29B4510026DF21 /* Demo Swift Xlsx Reader WriterUITests */,
@@ -315,9 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE15EFC1D29B4510026DF21 /* LaunchScreen.storyboard in Resources */,
-				5DE160581D29C2850026DF21 /* DemoWorkbook.xlsx in Resources */,
 				5DE15EF91D29B4510026DF21 /* Assets.xcassets in Resources */,
 				5DE15EF41D29B4510026DF21 /* Main.storyboard in Resources */,
+				5D19CDBB1D2AC88200D1C11D /* demo.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +582,7 @@
 				5DE15F181D29B4510026DF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE15F191D29B4510026DF21 /* Build configuration list for PBXNativeTarget "Demo Swift Xlsx Reader WriterTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +591,7 @@
 				5DE15F1B1D29B4510026DF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE15F1C1D29B4510026DF21 /* Build configuration list for PBXNativeTarget "Demo Swift Xlsx Reader WriterUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +600,7 @@
 				5DE15F1E1D29B4510026DF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
