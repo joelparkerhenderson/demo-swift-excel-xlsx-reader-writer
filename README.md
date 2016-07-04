@@ -82,9 +82,9 @@ Edit `ViewController.swift`:
         let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(path)
         let sheet: BRASheet = spreadsheet.workbook.sheets[0] as! BRASheet
         let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
-        let string: String = worksheet.cellForCellReference("A1").stringValue()
+        let cell: BRACell = worksheet.cellForCellReference("A1")
         print(sheet.name) // print "Sheet1"
-        print(string) // print "Alpha"
+        print(cell.stringValue()) // print "Alpha"
       }
 
       override func didReceiveMemoryWarning() {
@@ -102,8 +102,8 @@ Verify:
 ## Tracking
 
 * Package: demo_swift_excel_xlsx_reader_writer
-* Version: 2.0.6
+* Version: 2.1.0
 * Created: 2016-07-02
-* Updated: 2016-07-03
-* License: Any of BSD, GPL, MIT
+* Updated: 2016-07-04
+* License: Any of GPL, LGPL, BSD, MIT
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
