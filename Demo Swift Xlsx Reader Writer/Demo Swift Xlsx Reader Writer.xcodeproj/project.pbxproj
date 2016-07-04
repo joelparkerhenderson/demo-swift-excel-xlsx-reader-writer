@@ -81,7 +81,6 @@
 		5DE15F0D1D29B4510026DF21 /* Demo Swift Xlsx Reader WriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift Xlsx Reader WriterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE15F111D29B4510026DF21 /* Demo_Swift_Xlsx_Reader_WriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_Xlsx_Reader_WriterUITests.swift; sourceTree = "<group>"; };
 		5DE15F131D29B4510026DF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE15F2F1D29B6DB0026DF21 /* libSSZipArchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSSZipArchive.a; path = "../../../../Library/Developer/Xcode/DerivedData/Demo_Swift_Xlsx_Reader_Writer-gvoufiqeffmficfmtqlfvvdnfwcq/Build/Products/Debug-iphonesimulator/libSSZipArchive.a"; sourceTree = "<group>"; };
 		5DE15F331D29B7A90026DF21 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5DE160461D29BCC20026DF21 /* XlsxReaderWriter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XlsxReaderWriter.xcodeproj; path = XlsxReaderWriter/XlsxReaderWriter.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +117,6 @@
 			children = (
 				5DE160461D29BCC20026DF21 /* XlsxReaderWriter.xcodeproj */,
 				5DE15F331D29B7A90026DF21 /* libz.tbd */,
-				5DE15F2F1D29B6DB0026DF21 /* libSSZipArchive.a */,
 				5D19CDBA1D2AC88200D1C11D /* demo.xlsx */,
 				5DE15EED1D29B4510026DF21 /* Demo Swift Xlsx Reader Writer */,
 				5DE15F051D29B4510026DF21 /* Demo Swift Xlsx Reader WriterTests */,
