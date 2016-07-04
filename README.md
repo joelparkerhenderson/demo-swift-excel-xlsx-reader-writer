@@ -67,7 +67,7 @@ Verify:
 
 Create an Excel file by using your own Excel software, or any Excel-compatible software.
 
-  * For example, create `DemoWorkbook.xlsx` and save it in the repository.
+  * For example, create `demo.xlsx` and save it in the repository.
   * For example, in the cell A1, type the word "Alpha".
 
 Edit `ViewController.swift`:
