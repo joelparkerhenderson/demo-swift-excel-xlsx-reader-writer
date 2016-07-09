@@ -2,6 +2,15 @@
 
 [XlsxReaderWriter](https://github.com/renebigot/XlsxReaderWriter) is an Objective-C library that works with Excel OpenXml files (XLSX).
 
+## Example code
+
+Example code to load a spreadsheet and print a cell value:
+
+    let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(path)
+    let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
+    let cell: BRACell = worksheet.cellForCellReference("A1")
+    print(cell.stringValue())
+    
 ## To create this demo
 
 Create a new project.
