@@ -1,6 +1,15 @@
 # Demo Swift Excel Xlsx Reader Writer
 
-[XlsxReaderWriter](https://github.com/renebigot/XlsxReaderWriter) is an Objective-C library that works with Excel OpenXml files (XLSX).
+This demonstration shows:
+
+  * The [Swift](http://swift.org) programming language with
+    [Apple](http://apple.com)
+    [iOS](http://www.apple.com/ios/)
+    [Xcode](https://developer.apple.com/xcode/)
+
+  * How to use [XlsxReaderWriter](https://github.com/renebigot/XlsxReaderWriter),
+    which is an Objective-C library, to read [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)
+    files by using [Office OpenXML](https://en.wikipedia.org/wiki/Office_Open_XML).
 
 ## To create this demo
 
