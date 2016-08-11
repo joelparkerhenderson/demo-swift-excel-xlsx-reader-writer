@@ -11,6 +11,15 @@ This demonstration shows:
     which is an Objective-C library, to read [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)
     files by using [Office OpenXML](https://en.wikipedia.org/wiki/Office_Open_XML).
 
+## Example code
+
+Example code to load a spreadsheet and print a cell value:
+
+    let spreadsheet: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(path)
+    let worksheet: BRAWorksheet = spreadsheet.workbook.worksheets[0] as! BRAWorksheet
+    let cell: BRACell = worksheet.cellForCellReference("A1")
+    print(cell.stringValue())
+    
 ## To create this demo
 
 Create a new project.
