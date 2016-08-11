@@ -1,5 +1,7 @@
 # Demo Swift Excel Xlsx Reader Writer
 
+<img src="README.png" alt="Excel" style="width: 100%;"/>
+
 This demonstration shows:
 
   * The [Swift](http://swift.org) programming language with
