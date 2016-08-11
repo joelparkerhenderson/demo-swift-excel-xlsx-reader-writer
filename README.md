@@ -111,8 +111,8 @@ Verify:
 ## Tracking
 
 * Package: demo_swift_excel_xlsx_reader_writer
-* Version: 2.1.0
+* Version: 2.1.1
 * Created: 2016-07-02
-* Updated: 2016-07-04
-* License: Any of GPL, LGPL, BSD, MIT
+* Updated: 2016-08-11
+* License: BSD, GPL, MIT
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
