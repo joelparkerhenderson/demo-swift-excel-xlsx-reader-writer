@@ -1,12 +1,16 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+##
+# This .gitignore file is our general purpose file.
+# This file is for macOS, Xcode, Swift, Carthage, Cocoapods, etc.
+##
 
-## Build generated
+## Builds
+.build/
+.Build/
 build/
+Build/
 DerivedData/
 
-## Various settings
+## Settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -18,6 +22,35 @@ DerivedData/
 xcuserdata/
 
 ## Other
+.DS_Store
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+
+## CocoaPods
+Pods/
+
+## Carthage
+*/Carthage/Checkouts
+*/Carthage/Buildg
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
