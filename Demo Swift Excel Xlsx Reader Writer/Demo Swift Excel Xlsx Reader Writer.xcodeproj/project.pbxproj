@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4DFB561F791E0C009EED30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DFB551F791E0C009EED30 /* AppDelegate.swift */; };
+		5D4DFB581F791E0C009EED30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DFB571F791E0C009EED30 /* ViewController.swift */; };
+		5D4DFB5B1F791E0C009EED30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DFB591F791E0C009EED30 /* Main.storyboard */; };
+		5D4DFB5D1F791E0C009EED30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DFB5C1F791E0C009EED30 /* Assets.xcassets */; };
+		5D4DFB601F791E0C009EED30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DFB5E1F791E0C009EED30 /* LaunchScreen.storyboard */; };
+		5D4DFB6B1F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DFB6A1F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterTests.swift */; };
+		5D4DFB761F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DFB751F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift */; };
+		5D4DFB921F791E43009EED30 /* libXlsxReaderWriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DFB8B1F791E2F009EED30 /* libXlsxReaderWriter.a */; };
+		5D4DFB951F791E49009EED30 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4DFB941F791E49009EED30 /* libz.tbd */; };
+		5D4DFB991F7923FA009EED30 /* demo.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 5D4DFB981F7923FA009EED30 /* demo.xlsx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D4DFB671F791E0C009EED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DFB4A1F791E0C009EED30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4DFB511F791E0C009EED30;
+			remoteInfo = "Demo Swift Excel Xlsx Reader Writer";
+		};
+		5D4DFB721F791E0C009EED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DFB4A1F791E0C009EED30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4DFB511F791E0C009EED30;
+			remoteInfo = "Demo Swift Excel Xlsx Reader Writer";
+		};
+		5D4DFB8A1F791E2F009EED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B6E23A1A148F7500288A78;
+			remoteInfo = XlsxReaderWriter;
+		};
+		5D4DFB8C1F791E2F009EED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B6E2451A148F7500288A78;
+			remoteInfo = XlsxReaderWriterTests;
+		};
+		5D4DFB8E1F791E2F009EED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22156D581C46B42500BB5779;
+			remoteInfo = "XlsxReaderWriter Mac";
+		};
+		5D4DFB901F791E3D009EED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B6E2391A148F7500288A78;
+			remoteInfo = XlsxReaderWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D4DFB521F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Swift Excel Xlsx Reader Writer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4DFB551F791E0C009EED30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D4DFB571F791E0C009EED30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D4DFB5A1F791E0C009EED30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D4DFB5C1F791E0C009EED30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D4DFB5F1F791E0C009EED30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D4DFB611F791E0C009EED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4DFB661F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift Excel Xlsx Reader WriterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4DFB6A1F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_Excel_Xlsx_Reader_WriterTests.swift; sourceTree = "<group>"; };
+		5D4DFB6C1F791E0C009EED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4DFB711F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swift Excel Xlsx Reader WriterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4DFB751F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift; sourceTree = "<group>"; };
+		5D4DFB771F791E0C009EED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XlsxReaderWriter.xcodeproj; path = XlsxReaderWriter/XlsxReaderWriter.xcodeproj; sourceTree = SOURCE_ROOT; };
+		5D4DFB941F791E49009EED30 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5D4DFB971F791FFD009EED30 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		5D4DFB981F7923FA009EED30 /* demo.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.xlsx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4DFB4F1F791E0C009EED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DFB951F791E49009EED30 /* libz.tbd in Frameworks */,
+				5D4DFB921F791E43009EED30 /* libXlsxReaderWriter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4DFB631F791E0C009EED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4DFB6E1F791E0C009EED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4DFB491F791E0C009EED30 = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB981F7923FA009EED30 /* demo.xlsx */,
+				5D4DFB971F791FFD009EED30 /* Bridge.h */,
+				5D4DFB541F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */,
+				5D4DFB691F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests */,
+				5D4DFB741F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests */,
+				5D4DFB531F791E0C009EED30 /* Products */,
+				5D4DFB931F791E49009EED30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D4DFB531F791E0C009EED30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB521F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer.app */,
+				5D4DFB661F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests.xctest */,
+				5D4DFB711F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4DFB541F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */,
+				5D4DFB551F791E0C009EED30 /* AppDelegate.swift */,
+				5D4DFB571F791E0C009EED30 /* ViewController.swift */,
+				5D4DFB591F791E0C009EED30 /* Main.storyboard */,
+				5D4DFB5C1F791E0C009EED30 /* Assets.xcassets */,
+				5D4DFB5E1F791E0C009EED30 /* LaunchScreen.storyboard */,
+				5D4DFB611F791E0C009EED30 /* Info.plist */,
+			);
+			path = "Demo Swift Excel Xlsx Reader Writer";
+			sourceTree = "<group>";
+		};
+		5D4DFB691F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB6A1F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterTests.swift */,
+				5D4DFB6C1F791E0C009EED30 /* Info.plist */,
+			);
+			path = "Demo Swift Excel Xlsx Reader WriterTests";
+			sourceTree = "<group>";
+		};
+		5D4DFB741F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB751F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift */,
+				5D4DFB771F791E0C009EED30 /* Info.plist */,
+			);
+			path = "Demo Swift Excel Xlsx Reader WriterUITests";
+			sourceTree = "<group>";
+		};
+		5D4DFB841F791E2E009EED30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB8B1F791E2F009EED30 /* libXlsxReaderWriter.a */,
+				5D4DFB8D1F791E2F009EED30 /* XlsxReaderWriterTests.xctest */,
+				5D4DFB8F1F791E2F009EED30 /* XlsxReaderWriter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4DFB931F791E49009EED30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DFB941F791E49009EED30 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D4DFB511F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4DFB7A1F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader Writer" */;
+			buildPhases = (
+				5D4DFB4E1F791E0C009EED30 /* Sources */,
+				5D4DFB4F1F791E0C009EED30 /* Frameworks */,
+				5D4DFB501F791E0C009EED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4DFB911F791E3D009EED30 /* PBXTargetDependency */,
+			);
+			name = "Demo Swift Excel Xlsx Reader Writer";
+			productName = "Demo Swift Excel Xlsx Reader Writer";
+			productReference = 5D4DFB521F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D4DFB651F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4DFB7D1F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader WriterTests" */;
+			buildPhases = (
+				5D4DFB621F791E0C009EED30 /* Sources */,
+				5D4DFB631F791E0C009EED30 /* Frameworks */,
+				5D4DFB641F791E0C009EED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4DFB681F791E0C009EED30 /* PBXTargetDependency */,
+			);
+			name = "Demo Swift Excel Xlsx Reader WriterTests";
+			productName = "Demo Swift Excel Xlsx Reader WriterTests";
+			productReference = 5D4DFB661F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D4DFB701F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4DFB801F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader WriterUITests" */;
+			buildPhases = (
+				5D4DFB6D1F791E0C009EED30 /* Sources */,
+				5D4DFB6E1F791E0C009EED30 /* Frameworks */,
+				5D4DFB6F1F791E0C009EED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4DFB731F791E0C009EED30 /* PBXTargetDependency */,
+			);
+			name = "Demo Swift Excel Xlsx Reader WriterUITests";
+			productName = "Demo Swift Excel Xlsx Reader WriterUITests";
+			productReference = 5D4DFB711F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4DFB4A1F791E0C009EED30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JoelParkerHenderson.com;
+				TargetAttributes = {
+					5D4DFB511F791E0C009EED30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G863BF9CVX;
+						ProvisioningStyle = Automatic;
+					};
+					5D4DFB651F791E0C009EED30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D4DFB511F791E0C009EED30;
+					};
+					5D4DFB701F791E0C009EED30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D4DFB511F791E0C009EED30;
+					};
+				};
+			};
+			buildConfigurationList = 5D4DFB4D1F791E0C009EED30 /* Build configuration list for PBXProject "Demo Swift Excel Xlsx Reader Writer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D4DFB491F791E0C009EED30;
+			productRefGroup = 5D4DFB531F791E0C009EED30 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5D4DFB841F791E2E009EED30 /* Products */;
+					ProjectRef = 5D4DFB831F791E2E009EED30 /* XlsxReaderWriter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5D4DFB511F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */,
+				5D4DFB651F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterTests */,
+				5D4DFB701F791E0C009EED30 /* Demo Swift Excel Xlsx Reader WriterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5D4DFB8B1F791E2F009EED30 /* libXlsxReaderWriter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXlsxReaderWriter.a;
+			remoteRef = 5D4DFB8A1F791E2F009EED30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D4DFB8D1F791E2F009EED30 /* XlsxReaderWriterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XlsxReaderWriterTests.xctest;
+			remoteRef = 5D4DFB8C1F791E2F009EED30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D4DFB8F1F791E2F009EED30 /* XlsxReaderWriter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XlsxReaderWriter.framework;
+			remoteRef = 5D4DFB8E1F791E2F009EED30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4DFB501F791E0C009EED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DFB601F791E0C009EED30 /* LaunchScreen.storyboard in Resources */,
+				5D4DFB5D1F791E0C009EED30 /* Assets.xcassets in Resources */,
+				5D4DFB5B1F791E0C009EED30 /* Main.storyboard in Resources */,
+				5D4DFB991F7923FA009EED30 /* demo.xlsx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4DFB641F791E0C009EED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4DFB6F1F791E0C009EED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4DFB4E1F791E0C009EED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DFB581F791E0C009EED30 /* ViewController.swift in Sources */,
+				5D4DFB561F791E0C009EED30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4DFB621F791E0C009EED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DFB6B1F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4DFB6D1F791E0C009EED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DFB761F791E0C009EED30 /* Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D4DFB681F791E0C009EED30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4DFB511F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */;
+			targetProxy = 5D4DFB671F791E0C009EED30 /* PBXContainerItemProxy */;
+		};
+		5D4DFB731F791E0C009EED30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4DFB511F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */;
+			targetProxy = 5D4DFB721F791E0C009EED30 /* PBXContainerItemProxy */;
+		};
+		5D4DFB911F791E3D009EED30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XlsxReaderWriter;
+			targetProxy = 5D4DFB901F791E3D009EED30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D4DFB591F791E0C009EED30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4DFB5A1F791E0C009EED30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D4DFB5E1F791E0C009EED30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4DFB5F1F791E0C009EED30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D4DFB781F791E0C009EED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D4DFB791F791E0C009EED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4DFB7B1F791E0C009EED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				INFOPLIST_FILE = "Demo Swift Excel Xlsx Reader Writer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-Writer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Bridge.h;
+				SWIFT_VERSION = 3.0;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/XlsxReaderWriter/**";
+			};
+			name = Debug;
+		};
+		5D4DFB7C1F791E0C009EED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G863BF9CVX;
+				INFOPLIST_FILE = "Demo Swift Excel Xlsx Reader Writer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-Writer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Bridge.h;
+				SWIFT_VERSION = 3.0;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/XlsxReaderWriter/**";
+			};
+			name = Release;
+		};
+		5D4DFB7E1F791E0C009EED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo Swift Excel Xlsx Reader WriterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swift Excel Xlsx Reader Writer.app/Demo Swift Excel Xlsx Reader Writer";
+			};
+			name = Debug;
+		};
+		5D4DFB7F1F791E0C009EED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo Swift Excel Xlsx Reader WriterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swift Excel Xlsx Reader Writer.app/Demo Swift Excel Xlsx Reader Writer";
+			};
+			name = Release;
+		};
+		5D4DFB811F791E0C009EED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Demo Swift Excel Xlsx Reader WriterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Demo Swift Excel Xlsx Reader Writer";
+			};
+			name = Debug;
+		};
+		5D4DFB821F791E0C009EED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Demo Swift Excel Xlsx Reader WriterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Demo Swift Excel Xlsx Reader Writer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4DFB4D1F791E0C009EED30 /* Build configuration list for PBXProject "Demo Swift Excel Xlsx Reader Writer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4DFB781F791E0C009EED30 /* Debug */,
+				5D4DFB791F791E0C009EED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4DFB7A1F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader Writer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4DFB7B1F791E0C009EED30 /* Debug */,
+				5D4DFB7C1F791E0C009EED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D4DFB7D1F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader WriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4DFB7E1F791E0C009EED30 /* Debug */,
+				5D4DFB7F1F791E0C009EED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D4DFB801F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader WriterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4DFB811F791E0C009EED30 /* Debug */,
+				5D4DFB821F791E0C009EED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D4DFB4A1F791E0C009EED30 /* Project object */;
+}

@@ -4,11 +4,11 @@
 ##
 
 ## Builds
-.build/
-.Build/
-build/
-Build/
-DerivedData/
+#.build/
+#.Build/
+#build/
+#Build/
+#DerivedData/
 
 ## Settings
 *.pbxuser
@@ -46,8 +46,8 @@ Package.resolved
 Pods/
 
 ## Carthage
-*/Carthage/Checkouts
-*/Carthage/Buildg
+#*/Carthage/Checkouts
+#*/Carthage/Build
 
 ## Fastlane
 fastlane/report.xml

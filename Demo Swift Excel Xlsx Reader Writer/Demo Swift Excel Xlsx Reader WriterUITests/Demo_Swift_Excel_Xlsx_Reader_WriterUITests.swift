@@ -1,14 +1,14 @@
 //
-//  Demo_Swift_Xlsx_Reader_WriterUITests.swift
-//  Demo Swift Xlsx Reader WriterUITests
+//  Demo_Swift_Excel_Xlsx_Reader_WriterUITests.swift
+//  Demo Swift Excel Xlsx Reader WriterUITests
 //
-//  Created by Joel Parker Henderson on 2016-07-03.
-//  Copyright © 2016 Joel Parker Henderson. All rights reserved.
+//  Created by Joel on 9/25/17.
+//  Copyright © 2017 JoelParkerHenderson.com. All rights reserved.
 //
 
 import XCTest
 
-class Demo_Swift_Xlsx_Reader_WriterUITests: XCTestCase {
+class Demo_Swift_Excel_Xlsx_Reader_WriterUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
