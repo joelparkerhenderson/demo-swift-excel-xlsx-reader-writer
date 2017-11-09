@@ -83,9 +83,9 @@ Linking:
 
   * Choose: Targets → Demo Swift Excel Xlsx Reader Writer 
   * → Build Settings → All → Linking → Other Linker Flags
-  * → Debug → (+) → Any Architeture | Any SDK
+  * → Debug → (+) → Any Architecture | Any SDK
   * Add: `-all_load`
-  * → Release → (+) → Any Architeture | Any SDK
+  * → Release → (+) → Any Architecture | Any SDK
   * Add: `-all_load`
   
 Search Paths:
