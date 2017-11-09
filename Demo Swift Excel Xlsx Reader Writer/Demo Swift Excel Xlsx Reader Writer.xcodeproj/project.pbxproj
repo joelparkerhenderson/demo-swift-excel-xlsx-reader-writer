@@ -612,6 +612,7 @@
 				5D4DFB7C1F791E0C009EED30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D4DFB7D1F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader WriterTests" */ = {
 			isa = XCConfigurationList;
@@ -620,6 +621,7 @@
 				5D4DFB7F1F791E0C009EED30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D4DFB801F791E0C009EED30 /* Build configuration list for PBXNativeTarget "Demo Swift Excel Xlsx Reader WriterUITests" */ = {
 			isa = XCConfigurationList;
@@ -628,6 +630,7 @@
 				5D4DFB821F791E0C009EED30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
